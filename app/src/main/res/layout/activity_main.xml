@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    >
+
+
+    <Button
+        android:id="@+id/btnMain01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainTxt"
+        android:onClick="mOnClick"/>
+    <Button
+        android:id="@+id/btnMain02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainTxt02"
+        android:onClick="mOnClick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Layout"
+        android:textSize="20sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="#ffff00"/>
+
+    <Button
+        android:id="@+id/btnMain03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainTitle03"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+
+    <Button
+    android:id="@+id/btnMain04"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/mainTitle04"
+    android:textAllCaps="false"
+    android:onClick="mOnClick"/>
+
+    <Button
+        android:id="@+id/btnMain05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainTitle05"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+    <Button
+        android:id="@+id/btnMain06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainTitle06"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+    <Button
+        android:id="@+id/btnMain07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/mainTitle07"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="알림효과 - 진동, 효과음"
+        android:textSize="20sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="#ffff00"/>
+
+    <Button
+        android:id="@+id/btnMain08"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="@string/mainTitle08"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnMain09"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClick"
+        android:text="다이얼로그"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnMain10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="대화상자 과제"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="사용자 이벤트처리"
+        android:textSize="20sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="#ffff00"/>
+
+    <Button
+        android:id="@+id/btnMain11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사용자 이벤트처리"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="터치이벤트"
+        android:textSize="20sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="#ffff00"/>
+
+    <Button
+        android:id="@+id/btnMain12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="터치이벤트"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="리소스활용"
+        android:textSize="20sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="#ffff00"/>
+
+    <Button
+        android:id="@+id/btnMain13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리소스활용"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+
+    <Button
+        android:id="@+id/btnMain14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리소스활용 언어설정"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="과제1 페이스북의 메신저 화면"
+        android:textSize="20sp"
+        android:gravity="center_horizontal|center_vertical"
+        android:background="#ffff00"/>
+
+    <Button
+        android:id="@+id/btnMain15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="리소스활용"
+        android:textAllCaps="false"
+        android:onClick="mOnClick"/>
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">View_Study</string>
+    <string name="tv_result">Hello Android</string>
+    <string name="btnText01">visible true</string>
+    <string name="btnText02">visible false</string>
+    <string name="btnLeftGone">gone true</string>
+    <string name="btnRightGone">gone false</string>
+    <string name="mainTxt">뷰 기초 속성 활용</string>
+    <string name="mainTxt02">textview 활용</string>
+    <string name="longTxtDate">강원 영동을 제외한 대부분 지방 초미세먼지 농도가 높게 나타나고 있습니다. 충북과 영남 제주도는 종일‘나쁨’수준 수도권과 강원영서 충청·호남은 오전까지‘나쁨’ 수준의 농도가 이어지겠습니다. 오늘도 서울의 낮기온은 20도로 어제와 비슷해 포근하겠습니다. 하지만 아침저녁에는 쌀쌀하니까요, 건강 잘 챙기셔야겠습니다. 금요일에는 따뜻하겠습니다. 현재 대체로 맑은 날씨를 보이고 있습니다. 오늘도 고기압의 영향으로 전국이 맑겠고 강원 영동은 바람이 강하게 불겠습니다. 낮기온은 서울 20도 광주 22도 대구 23도로 어제와 비슷하거나 조금 높겠습니다. 바다의 물결은 모든 해상에서 1~2m로 잔잔하게 일겠습니다. 주말까지 맑은 날씨가 이어지다가 일요일부터 월요일사이 전국에 비가 내리겠습니다. 기상정보였습니다.</string>
+    <string name="mainTitle03">LinearLayout</string>
+    <string name="mainTitle04">RelativeLayout</string>
+    <string name="mainTitle05">FrameLayout</string>
+    <string name="mainTitle06">TabHost</string>
+    <string name="mainTitle07">TableLayout GridLayout</string>
+    <string name="mainTitle08">진동, 효과음 울리기</string>
+
+    <string name="note">To be, or not to be : this is the question</string>
+</resources>

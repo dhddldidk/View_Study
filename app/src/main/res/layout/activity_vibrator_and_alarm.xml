@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VibratorAndAlarmActivity">
+
+    <Button
+        android:id="@+id/btn_vibration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibration"
+        android:textAllCaps="false"
+        android:onClick="btnVibrationClick"/>
+    <Button
+        android:id="@+id/btn_system_beep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="System Beep"
+        android:textAllCaps="false"
+        android:onClick="btnSystemBeepClick"/>
+    <Button
+        android:id="@+id/btn_custom_beep"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom Beep"
+        android:textAllCaps="false"
+        android:onClick="btnCustomBeepClick"/>
+    <Button
+        android:id="@+id/btn_vibrator_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibration Pattern"
+        android:textAllCaps="false"
+        android:onClick="btnVibratorPatternClick"/>
+    <Button
+        android:id="@+id/btn_sound_start"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:text="Custom Always Start"
+        android:textAllCaps="false"
+        android:onClick="btnCustomerSoundClick"/>
+    <Button
+        android:id="@+id/btn_sound_stop"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:text="Custom Always Stop"
+        android:textAllCaps="false"
+        android:onClick="btnCustomerSoundClick"/>
+</LinearLayout>

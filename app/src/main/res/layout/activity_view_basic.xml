@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ViewBasicActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnText01"
+        android:onClick="trueBtnClick"/>
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_result"
+        android:textSize="@dimen/tvSize"
+        android:textColor="@color/colorTxt"
+        android:background="@color/colorTv"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnText02"
+        android:onClick="falseBtnClick"/>
+
+    <Button
+        android:id="@+id/btnLeftGone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnLeftGone"
+        android:onClick="trueGoneClick"/>
+
+    <TextView
+        android:id="@+id/tv02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_result"
+        android:textSize="@dimen/tvSize30"
+        android:textColor="@color/colorTxt02"
+        android:background="@color/colorTv02"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/btnRightGone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRightGone"
+        android:onClick="falseGoneClick"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Button01"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Button02"/>
+    </LinearLayout>
+
+    <include layout="@layout/sub_layout"/>
+
+
+</LinearLayout>
